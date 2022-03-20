@@ -48,7 +48,7 @@ options:
 7. You Can Also Add Your Own SystemCall in SystemCall.h File For Some Kind Of Customization.
 
 
-## Disclamer
+## Note
 
 1. For SandBox Evasion When you Run your Exe It will Take Some Time To Call Back To Your C2.
 3. -P Flag Will Only Work With Default PE Of Windows And For Running Process Like (explorer.exe, calc.exe, notepad.exe, etc)
