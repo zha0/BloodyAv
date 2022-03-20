@@ -1,5 +1,5 @@
 # BloodyAv
-BloodyAv is Custom Shell Code loader to Bypass Av and Edr.
+> BloodyAv is Custom Shell Code loader to Bypass Av and Edr.
 
 ```
  ▄▄▄▄       ██▓        ▒█████      ▒█████     ▓█████▄    ▓██   ██▓    ▄▄▄          ██▒   █▓
@@ -37,18 +37,20 @@ options:
 ```
 
 
-
 ## Features
 
 1. It has many loading modes. There are 13 loading modes in 32 bits and 12 loading modes in 64 bits.
-
 2. Support development. If a new attack means is found, you can develop template according to the specified method.
-
 3. Shellcode is automatically encrypted.The md5 of loaders that come from the same shellcode are different,because the generator uses time as seed to randomly generate 128-bit keys for encryption.
+4. XOR Encryption with Dynamic Key Generation
+5. Sandbox Evasion via Loaded DLL Enumeration
+6. Sandbox Evasion via Checking Processors, Memory, and Time
 
 
-- The tool has been confirmed to successfully load Meterpreter and a Cobalt Strike beacon on fully updated systems with Windows Defender enabled. The project itself is still in a PoC/WIP state, as it currently doesn't work with all payloads.
+## Disclamer
 
+1. For SandBox Evasion When you Run your Exe It will Take Some Time To Call Back To Your C2.
+3. -P Flag Will Only Work With Default PE Of Windows And For Running Process Like (explorer.exe, calc.exe, notepad.exe, etc)
 
 
 ## Ref
