@@ -18,7 +18,7 @@ BloodyAv is Custom Shell Code loader to Bypass Av and Edr.
 
 usage: BloodyAV.py [-h] [-p explorer.exe] [-m QueueUserAPC] [-nr] [-v] [-d] [-o output.exe] file
 
-Mr.N1K0'S CUSTOM SHELLCODE LOADER FOR WINDOWS DEFAULT
+Mr.N1K0'S CUSTOM SHELLCODE LOADER FOR WINDOWS DEFAULT PROCESS
 
 positional arguments:
   file                  File that containing raw shellcode
@@ -28,8 +28,7 @@ options:
   -p explorer.exe, --process explorer.exe
                         Process to inject into
   -m QueueUserAPC, --method QueueUserAPC
-                        Method for shellcode execution (Options: ProcessHollow, QueueUserAPC, RemoteThreadContext,
-                        RemoteThreadSuspended, CurrentThread) (Recommended:QueueUserAPC)
+                        Method for shellcode execution ( Method: QueueUserAPC, RemoteThreadContext, CurrentThread) (Recommended:QueueUserAPC)
   -nr, --no-randomize   Disable syscall name randomization
   -v, --verbose         Enable debugging messages upon execution and show more Info
   -d, --dll-sandbox     Use DLL based sandbox checks instead of the standard ones
