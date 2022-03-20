@@ -45,6 +45,7 @@ options:
 4. XOR Encryption with Dynamic Key Generation
 5. Sandbox Evasion via Loaded DLL Enumeration
 6. Sandbox Evasion via Checking Processors, Memory, and Time
+7. You Can Also Add Your Own SystemCall in SystemCall.h File For Some Kind Of Customization.
 
 
 ## Disclamer
@@ -69,4 +70,3 @@ options:
 - [NtCreateSection Inject Load](https://www.ired.team/offensive-security/code-injection-process-injection/ntcreatesection-+-ntmapviewofsection-code-injection)
 - [OEP Hiijack Hiijack Inject Load](https://www.ired.team/offensive-security/code-injection-process-injection/addressofentrypoint-code-injection-without-virtualallocex-rwx)
 - [Thread Hiijack Inject Load](https://idiotc4t.com/code-and-dll-process-injection/setcontext-hijack-thread)
-- 《加密与解密4》
