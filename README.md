@@ -53,7 +53,9 @@ options:
 ```
 git clone https://github.com/MRNIKO1/BloodyAv.git
 
-sudo apt install mingw-w64 python3
+sudo apt install mingw-w64 python3 python3-pip
+
+pip3 install colorama
 
 cd BloodyAv
 
