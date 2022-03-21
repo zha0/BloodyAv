@@ -48,6 +48,16 @@ options:
 7. You Can Also Add Your Own SystemCall in SystemCall.h File For Some Kind Of Customization.
 
 
+## installation
+
+```
+git clone https://github.com/MRNIKO1/BloodyAv.git
+sudo apt install mingw-w64 python3
+cd BloodyAv
+python3 BloodyAV.py -h 
+```
+
+
 ## Note
 
 1. For SandBox Evasion When you Run your Exe It will Take Some Time To Call Back To Your C2.
